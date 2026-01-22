@@ -1,0 +1,25 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/
+*.csv
+*.json
+*.parquet
+
+# dbt
+dbt_packages/
+target/
+logs/
+
+# Terraform (DO NOT COMMIT STATE)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
