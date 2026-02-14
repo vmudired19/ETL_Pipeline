@@ -1,0 +1,10 @@
+# Core Dependencies
+snowflake-connector-python==4.2.0
+requests==2.32.5
+python-dotenv==1.2.1
+
+# dbt
+dbt-snowflake==1.7.0
+
+# Utilities
+pytz==2025.2
